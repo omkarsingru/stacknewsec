@@ -1,0 +1,11 @@
+---
+name: on_hello_event1
+pack: stacktue
+description: Sample rule firing on stacktue.event1.
+enabled: true
+trigger:
+    type: stacktue.event1
+action:
+    ref: stacktue.greet
+    parameters:
+        greeting: Yo
